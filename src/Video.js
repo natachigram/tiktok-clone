@@ -2,8 +2,7 @@ import React, { useRef, useState } from 'react';
 import './Video.css';
 import VideoFooter from './VideoFooter';
 import VideoSidebar from './VideoSidebar';
-import vidOne from './tikvid/vid1.mp4';
-import vidTwo from './tikvid/vid2.mp4';
+
 
 function Video({url, channel, description, song, likes, messages, shares}) {
     const [playing, setPlaying] = useState(false);
